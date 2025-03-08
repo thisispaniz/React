@@ -3,8 +3,8 @@ import { useDispatch } from "react-redux";
 import { addToCart } from "../store/cartSlice";
 
 const plants = [
-    { id: 1, name: "Lillies", price: 15, img: "C:\Users\paniz\OneDrive\Dokumente\React-1\paradise-nursery\src\assets\hWJ4Xe9x8iWmgVi8Kx3EoJ.jpg"},
-    { id: 2, name: "SUnflowers", price: 20, img: "C:\Users\paniz\OneDrive\Dokumente\React-1\paradise-nursery\src\assets\sunflower-planted-in-flower-pot-isolated-on-white-background-JGWMK2.jpg" }
+    { id: 1, name: "Lillies", price: 15, img: "/"},
+    { id: 2, name: "SUnflowers", price: 20, img: "/sunflower-planted-in-flower-pot-isolated-on-white-background-JGWMK2.jpg" }
 ];
 
 const ProductPage = ({ setPage }) => {
